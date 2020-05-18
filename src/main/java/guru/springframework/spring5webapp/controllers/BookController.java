@@ -18,7 +18,7 @@ public class BookController {
     //this is what we are going to return to the view so view has the copy of model
     public String getBooks(Model model){
 
-        model.addAttribute("books", sbookRepository.findAll());
-        return "books";
+        model.addAttribute("books", bookRepository.findAll());
+        return "books/list";
     }
 }
