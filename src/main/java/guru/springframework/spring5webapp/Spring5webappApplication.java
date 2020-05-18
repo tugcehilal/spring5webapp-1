@@ -6,7 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Spring5webappApplication {
 
+
    //test tugce son
+
 	public static void main(String[] args) {
 		SpringApplication.run(Spring5webappApplication.class, args);
 	}
